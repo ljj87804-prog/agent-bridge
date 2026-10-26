@@ -1,6 +1,7 @@
 {
   "name": "dsh-codex-bridge",
   "version": "1.0.0",
+  "license": "MIT",
   "private": true,
   "type": "module",
   "description": "Shared MCP mailbox that lets DeepSeek Harness (dsh) and Codex supervise each other.",

@@ -101,4 +101,6 @@ These are bounded functional tests, not a long-duration availability guarantee. 
 
 `server.mjs` implements MCP transport; `lib/store.mjs` handles storage; `lib/tools.mjs` defines tools; `cli.mjs` provides shell access. `probe.mjs`, `regression.test.mjs`, and `lock.test.mjs` contain validation.
 
-No open-source license has been selected for this repository yet.
+## License
+
+Licensed under the [MIT License](LICENSE).
