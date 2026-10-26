@@ -1,0 +1,14 @@
+# Replace the absolute server path before adding to your desktop profile.
+- insert:
+    - id: mcp-codex-bridge
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: bridge
+        transport: stdio
+        command: node
+        args:
+          - /absolute/path/to/agent-bridge/server.mjs
+          - --agent
+          - dsh
+        toolCallTimeoutMs: 150000
+        failOnStartupError: false

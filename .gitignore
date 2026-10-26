@@ -1,0 +1,11 @@
+node_modules/
+state/
+logs/
+*.log
+*.tmp
+.env
+.env.*
+!.env.example
+evidence.md
+*.backup
+

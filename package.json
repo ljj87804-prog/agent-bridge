@@ -1,0 +1,18 @@
+{
+  "name": "dsh-codex-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Shared MCP mailbox that lets DeepSeek Harness (dsh) and Codex supervise each other.",
+  "bin": {
+    "bridge": "./cli.mjs"
+  },
+  "scripts": {
+    "probe": "node probe.mjs",
+    "test": "node --test lock.test.mjs regression.test.mjs && node probe.mjs",
+    "selftest": "node --test lock.test.mjs regression.test.mjs && node probe.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
